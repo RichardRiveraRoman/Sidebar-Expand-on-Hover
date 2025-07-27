@@ -16,16 +16,16 @@ contains_element() {
 find_and_cd_to_profile_dir() {
   # Check for standard package manager installation path
   if [ -d "$HOME/.zen" ]; then
-    cd "$HOME/.zen" ||
-      return 0
+    cd "$HOME/.zen" || exit
+    return 0
   # Check for user Flatpak installation path
   elif [ -d "$HOME/.var/app/app.zen_browser.zen/.zen" ]; then
-    cd "$HOME/.var/app/app.zen_browser.zen/.zen" ||
-      return 0
+    cd "$HOME/.var/app/app.zen_browser.zen/.zen" || exit
+    return 0
   # Check for system Flatpak installation path
   elif [ -d "/var/lib/flatpak/app/app.zen_browser.zen/.zen" ]; then
-    cd "/var/lib/flatpak/app/app.zen_browser.zen/.zen" ||
-      return 0
+    cd "/var/lib/flatpak/app/app.zen_browser.zen/.zen" || exit
+    return 0
   fi
   # If no directory is found, return an error
   return 1
