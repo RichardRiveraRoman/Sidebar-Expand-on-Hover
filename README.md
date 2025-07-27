@@ -42,7 +42,7 @@ This method is for standard installations of Zen (e.g., via `pacman`, `apt`,
 Copy the entire JSON object from the raw file link below. You will paste this
 into your `zen-themes.json` file.
 
-- **[zen-themes.json](https://raw.githubusercontent.com/RichardRiveraRoman/zen-themes.json)**
+- **[zen-themes.json](https://raw.githubusercontent.com/RichardRiveraRoman/Sidebar-Expand-on-Hover/main/zen-themes.json)**
 
 > **Note:** The content from the raw link will be a single, unformatted line of
 > text. A formatted version is provided below for reference.
