@@ -27,7 +27,7 @@ editing.
    theme data.
 
 ```bash
-sh -c "$(curl -sS https://raw.githubusercontent.com/RichardRiveraRoman/Sidebar-Expand-on-Hover/main/choose-editor.sh)"
+bash -c "$(curl -sS https://raw.githubusercontent.com/RichardRiveraRoman/Sidebar-Expand-on-Hover/main/choose-editor.sh)"
 ```
 
 ---
